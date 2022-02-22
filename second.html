@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebsiteTest</title>
+    <link rel= "stylesheet" href="main.css">
+</head>
+<!--script src="code.js"></script-->
+<!--noscript>You need to enable JavaScript to view the full site.</noscript-->
+<script>
+window.onload = function(){
+    let colorpath = sessionStorage.getItem("colorpath");
+    document.getElementById('output').innerHTML = colorpath;
+    console.log(colorpath); 
+};  
+</script>
+<body>
+    <p id = "output"></p>
+    <body class = "output"></body>
+    <h1>Hello Second Page!</h1>
+    <a href="index.html">Back to Main</a>
+</body>    
+</html>
