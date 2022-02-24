@@ -14,11 +14,13 @@
     }
 
     console.log('current class name: ' + className);
-
-    let colorpath = (className/*.toLowerCase()*/);
-    sessionStorage.setItem("colorpath", colorpath);
+    let colorpath = switcher;
+    localStorage.setItem("colorpath", colorpath);
  });
 
- 
+ window.onload = function(){
+    let mypath = localStorage.getItem("colorpath");
+    //document.getElementById('output').innerHTML = colorpath;
+};  
 
  
