@@ -1,5 +1,6 @@
 'use strict'
  const switcher = document.querySelector('.btn'); 
+ const remember = document.querySelector('.remember');
 
 
  switcher.addEventListener('click', function() {
@@ -23,4 +24,4 @@
     //document.getElementById('output').innerHTML = colorpath;
 };  
 
- 
+  
