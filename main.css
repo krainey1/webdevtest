@@ -1,3 +1,4 @@
+/* main format */
 :root {
     --teal: #19ABCD;
     --white: #ffffff;
@@ -7,8 +8,15 @@
     color: var(--fontColor);
     font-family: helvetica;
   }
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+
   body {
       background: var(--bg);
+      margin-left: 160px;
+      padding: 0px 10px;
   }
 
 
@@ -24,6 +32,7 @@ li {
     list-style: square;
   }
 
+  /* light themes for page + button for light themes */
   .light-theme {
     --bg: var(--teal);
     --fontColor: var(--black);
@@ -54,6 +63,7 @@ li {
     background-color: #199acd
 }
 
+/* top navigation + search bar */
 .topnav a{
     float:left;
     display: block;
@@ -87,3 +97,28 @@ li {
     font-size: 17px;
 }
 
+/* Sidebar stuff */
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #19ABCD;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
