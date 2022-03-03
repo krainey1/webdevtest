@@ -11,4 +11,8 @@ Recent Additions (3/1):
 * Search Bar (as of now not functional)
 * Styles for both bars
 
+(3/3):
+* Added Sidebar
+* Fixed Overlapping Issue
+
 
