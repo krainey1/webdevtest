@@ -6,7 +6,8 @@ Current Notes:
 * More stuff to add soon: tile menu, fixed text, etc.
 * Functional Seach Bar ~ Implement @ home (dont have access to google control panel from school)
 
-Recent Additions (3/1):
+Recent Additions 
+(3/1):
 * Responsive Menu Bar
 * Search Bar (as of now not functional)
 * Styles for both bars
