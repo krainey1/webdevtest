@@ -2,7 +2,7 @@ Trying out some webdev, feel free to look around
 
 To use currently: 
 * Download/git clone files 
-* open index.html from console (in the correct working directory)
+* open index.html from terminal (in the correct working directory)
 
 
 Current Notes:
