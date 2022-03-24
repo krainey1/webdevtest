@@ -25,5 +25,7 @@ Recent Additions
 (3/8):
 * Added/Resized Image & added border
 
-
+(3/24):
+* Structured second page
+* Decided website theme
 
