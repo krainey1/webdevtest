@@ -28,4 +28,5 @@ Recent Additions
 (3/24):
 * Structured second page
 * Decided website theme
+* Took out snow.jpg
 
