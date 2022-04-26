@@ -133,7 +133,7 @@ img {
 }
 
 .boxed {
-  top: 80px;
+  top: 500px;
   border: 1px solid black ;
   background-color: grey;
 }
