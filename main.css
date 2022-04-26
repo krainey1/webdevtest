@@ -133,7 +133,6 @@ img {
 }
 
 .boxed {
-  margin-top: -150px;
   border: 1px solid black ;
   background-color: grey;
 }
