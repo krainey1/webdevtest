@@ -29,3 +29,35 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
+    <h1>Variables (& a bit of booleans)</h1>
+    <h4>Now that you can work with operators, lets look at variables. Variables are how you can store data in programs (using containers!). There are also a few different ways to declare variables in JavaScript. To start, if you are running a version of JavaScript from 1995 - 2015 you will want to start with the keyword var.</h4>
+    <h4>With var, first you declare the variable type (var) using the keyword. Then you can name your variable (x in this case) and assign it a value. This done with the assignment operator (=)</h4>
+    <div class="boxed">
+        var x = 10; 
+    </div>
+    <h4> With var, you can also reassign the value later on in the program by referencing the name of the variable.</h4>
+    <div class="boxed">
+        x = 9;
+    </div>
+    <h4>So now if you were to print your variable x, you would get the value 9.</h4>
+    <div class="boxed">
+        console.log(x);     (would return 9)
+    </div>
+
+    <h4>Now if you have a JavaScript version from after 2015 (you most likely do), there are two additional ways to declare variables: the keywords const and let.</h4>
+    <h4>let is similar to var as it can be reassigned later. It works pretty much the same in practice as well: </h4>
+    <div class="boxed">
+        let x = 3;
+    </div>
+    <h4>With the keyword const, you cannot change the value after it has been initially assigned. So you would only want to use this if you know the value isn't going to change. It's declared similarly as well: </h4>
+    <div class="boxed">
+        const x = "Johnny";
+    </div>
+
+    <h4>And now lets talk briefly about booleans (we'll discuss more when we get to if/else logic). Booleans are a data type (similar to strings and numbers) with two possible values: true or false. Which is good to use if you need to work with true/false logic in situations like comparing values. Here's how to declare a boolean (we'll talk about it more soon!):</h4>
+    <div class="boxed">
+        let bool = false;
+        bool = true;
+        console.log(bool); (would return true)
+    </div>
+    <a href="Ifelse.html">NEXT</a>
